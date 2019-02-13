@@ -9,10 +9,12 @@ body {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 25px;
     background: #4aaaa5;
     color: #ffffff;
     padding: 20px;
+    float: left;
+    margin: 0px 525px 0 240px;
 }
 
 header {
@@ -25,9 +27,16 @@ header {
     background: #ffffff;
     clear: both;
 }
+.navbar {
+    padding: 0;
+
+}
 
 h2 {
+    font-size: 25px;
     color: #4aaaa5;
+    padding-bottom: 10px;
+    border-bottom: solid 3px gray;
 }
 
 .container {
@@ -41,10 +50,9 @@ h2 {
 
 }
 
-
 /* Portfolio */
 
-#moto-pic {
+.moto-img{
     border: solid 4px #4aaaa5;
     float: left;
     margin: 10px;
@@ -55,17 +63,9 @@ h2 {
     color: #ffffff;
 }
 
-#moto-pic2 {
-    border: solid 4px #4aaaa5;
-    float: left;
-    margin: 10px;
-    margin-left: 35px;
-    margin-right: 35px;
-    text-align: center;
-    background: #4aaaa5;
-    color: #ffffff;
+.col {
+    padding-top: 20px;
 }
-
 
 
 
